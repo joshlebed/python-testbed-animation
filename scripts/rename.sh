@@ -1,0 +1,1 @@
+ls | sed 'p;s/old_string/new_string/' | xargs -n2 mv
